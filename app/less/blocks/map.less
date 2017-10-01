@@ -1,0 +1,40 @@
+.map {
+	background-color: #f8f8fc;
+	position: relative;
+
+	.map-container {
+		background-color: green;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		right: 50%;
+		left: 0;
+		margin-right: 50px;
+
+		@media @mobil-widths {
+			position: static;
+			margin: 0;
+			height: 300px;
+		}
+	}
+	.map-container > ymaps {
+		height: 100% !important;
+	}
+
+	&__title {
+		font-size: 20px;
+		font-weight: bold;
+		color: #3c434d;
+		padding-top: 45px;
+		@media @mobil-widths {font-size: 16px; padding-top: 25px;}
+	}
+
+	&__text {
+		display: block;
+		color: #000;
+		font-size: 16px;
+		padding-top: 15px;
+		@media @mobil-widths {font-size: 14px; padding-top: 10px;}
+	}
+}
+

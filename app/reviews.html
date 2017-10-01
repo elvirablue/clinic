@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Ю-Клиник</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name = "format-detection" content = "telephone=no">
+
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+	<meta name="theme-color" content="#14d8bd">
+	<meta name="msapplication-navbutton-color" content="#14d8bd">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#14d8bd">
+
+
+	<link rel="stylesheet" href="bootstrap/css/bootstrap-3.3.2.min.css">	
+	<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">	
+	<link rel="stylesheet" href="owlcarousel/owl.carousel.css">  
+  	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+  	<link rel="stylesheet" href="css/venders/jquery-ui.css">
+  	<link rel="stylesheet" href="fancybox/jquery.fancybox.css">
+
+
+	<link rel="stylesheet" href="css/venders/normalize.css">
+	<link rel="stylesheet" href="css/venders/animate.css">		
+	<link rel="stylesheet" href="css/style.css">	
+
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800&amp;subset=cyrillic-ext" rel="stylesheet">
+
+	<!--[if lte IE 9]>
+	    <script src="oldies/oldies.js" charset="utf-8"></script>
+	    <style>
+	       .wrapper-x {display: none;}	       
+	    </style>
+	 <![endif]-->
+
+</head>
+
+<body>
+	<!-- **********************************************************************- -->
+
+<div class="wrapper-x">
+	<div class="wrapper-y">
+
+
+<!-- ***********************HEADER + NAVIGATION ********************************- -->
+
+	<header data-spy="scroll" data-target="#navbar-main" data-offset="80" class="main-header navbar_wrapper">
+	  <!--Фиксированное горизонтальное меню для навигации по текущей странице -->
+	<nav class="navbar navbar-default navbar-fixed-top main-nav-scroll">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <div class="navbar-brand" >
+	        <a href="#mainup" class="index_logo">
+	          <img src="img/logo.png" alt="Ю-Клиник">             
+	        </a>
+	        <p class="index_address">
+				Москва, Большой Кондратьевский пер., д. 7 <br>
+				Пн - сб 10:00 - 22:00, Вс 10:00 - 18:00
+			</p>
+	        <div class="index_phone"> 
+	          <a class="phone" href="tel:+74957863105">+7 495 786-31-05</a>
+	          <a href="#modal-1" class="button open-modal">Заказать звонок</a>          
+	        </div>
+	      
+	      </div>
+	    </div>
+	   </div>
+
+
+	    <!-- Основная часть меню (может содержать ссылки, формы и другие элементы) -->
+	   <div class="navbar-clinic-bg">
+	    <div class="collapse navbar-collapse container" id="navbar-main">
+	          <!-- Содержимое основной части --> 
+	      	<form class="search">
+					<input type="text" name="search" placeholder="Поиск" required="">
+			</form>
+	      	<ul class="nav navbar-nav level-1">			
+				<!--<li class="active"><a href=""><i>▼</i> Услуги</a></li>
+				 Выпадающий список -->
+				<li class="dropdown">
+				  	<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="caret"> </span>&nbsp;&nbsp;Услуги</a>
+				  	<ul class="dropdown-menu">
+				    	<li><a href="#">Ссылка1</a></li>
+				    	<li><a href="#">Ссылка2</a></li>				        	
+				    	<li><a href="#">Ссылка3 Ссылка3 Ссылка3 Ссылка3</a></li>
+				    	<li><a href="#">Ссылка4</a></li>
+				    	<li><a href="#">Ссылка5</a></li>				        	
+				    	<li><a href="#">Ссылка6</a></li>
+				  	</ul>
+				</li>
+				<li><a href="">Персонал</a></li>
+				<li><a href="">Прайс-лист</a></li>
+				<li><a href="">Акции</a></li>
+				<li><a href="">Отзывы</a></li>
+				<li><a href="">Вопрос-ответ</a></li>
+				<li><a href="">Новости</a></li>
+				<li><a href="">Контакты</a></li>
+			</ul>		
+		</div>
+	  </div>
+	</nav>
+	</header>
+
+	
+
+	<section class="page-block reviews">
+		<div class="container">
+			<h2 class="page-block__title">Отзывы</h2>			
+
+			<div id="owl-reviews" class="owl-carousel reviews__slider">
+				<div class="reviews__slider-item">
+					<div class="reviews__video-wr">
+						<video width="100%" height="100%" controls preload="none" poster="img/reviews/1/t_1.jpg">	
+							<source src="img/reviews/1/video1.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>	
+							Видео не поддерживается вашим браузером. 
+							<a href="https://www.youtube.com/?gl=RU&hl=ru">Смотреть в YouTube</a>.
+						</video>
+					</div>
+					<div class="reviews__text-wr">
+						<div class="row">
+							<div class="col-xs-12 col-sm-4 col-md-4">
+								<div class="reviews__img" style="background-image: url(img/reviews/1/photo1.jpg);"></div>
+							</div>
+							<div class="col-xs-12 col-sm-8 col-md-8">
+								<div class="reviews__clearfix">
+									<p class="reviews__date">27.07.2017</p>
+									<p class="reviews__author">Лейсан Утяшева</p>
+									<p class="reviews__doctor"><b>Врач: </b>Пашкова Ольга Владимировна</p>
+									<p class="reviews__text">
+										К косметологу хожу раз в год. Когда наконец появилось свободное окошко в моём расписании, я обратилась в клинику Seline. Очень рекомендовали мне эту клинику израильской эстетической медицины, и я, как человек супер дотошный в вопросах красоты — долго присматривалась.
+									</p>
+									<a href="#" class="reviews__link link-blue">@liasanutiasheva</a>
+								</div>
+							</div>
+						</div>
+					</div>					
+				</div>
+
+				<div class="reviews__slider-item">
+					<div class="reviews__video-wr">
+						<video width="100%0" height="100%" controls preload="none" poster="img/reviews/1/t_1.jpg">	
+							<source src="img/reviews/1/video1.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>	
+							Видео не поддерживается вашим браузером. 
+							<a href="https://www.youtube.com/?gl=RU&hl=ru">Смотреть в YouTube</a>.
+						</video>
+					</div>
+					<div class="reviews__text-wr">
+						<div class="row">
+							<div class="col-xs-12 col-sm-4 col-md-4">
+								<div class="reviews__img" style="background-image: url(img/reviews/1/photo1.jpg);"></div>
+							</div>
+							<div class="col-xs-12 col-sm-8 col-md-8">
+								<div class="reviews__clearfix">
+									<p class="reviews__date">27.07.2017</p>
+									<p class="reviews__author">Лейсан Утяшева</p>
+									<p class="reviews__doctor"><b>Врач: </b>Пашкова Ольга Владимировна</p>
+									<p class="reviews__text">
+										К косметологу хожу раз в год. Когда наконец появилось свободное окошко в моём расписании, я обратилась в клинику Seline. Очень рекомендовали мне эту клинику израильской эстетической медицины, и я, как человек супер дотошный в вопросах красоты — долго присматривалась.
+									</p>
+									<a href="#" class="reviews__link link-blue">@liasanutiasheva</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<p class="reviews__count">50 отзывов о наших врачах</p>
+
+		</div>
+	</section>
+
+	<div class="separator"></div>
+
+	<section class="page-block bg-gray">
+		<div class="container">			
+			<form class="form-contact form-contact--big">
+				<h4>Оставить свой отзыв</h4>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-6">
+						<input type="text" name="name" placeholder="Имя" required="">
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6">
+						<input type="tel" name="phone" placeholder="Телефон" required="">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<textarea name="message" placeholder="Текст сообщения"></textarea>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-6">
+						<button type="button" class="input-file file-photo">Прикрепить свое фото
+							<input type="file" name="file1" onchange='$("#upload-file-info1").text("Файл " + $(this)[0].files[0].name);'>
+						</button>
+						<p id="upload-file-info1" class="upload-file"></p>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6">
+						<button type="button" class="input-file file-scan">Прикрепить отсканированный  документ
+							<input type="file" name="file2" onchange='$("#upload-file-info2").text("Файл " + $(this)[0].files[0].name);'>
+						</button>
+						<p id="upload-file-info2" class="upload-file"></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<input type="submit" value="отправить" class="button">
+					</div>
+				</div>
+			</form>
+			
+		</div>
+	</section>
+
+	
+
+<!-- *************************** БЛОК ПОДВАЛ***************************************- -->	
+	</div> <!-- end wrapper-y -->
+
+	<footer id="footer" class="main-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-3 col-md-3">
+					<a href="#" class="index_logo">
+	          			<img src="img/logo.png" alt="Ю-Клиник">             
+	        		</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<p class="copyright">© Все права защищены, 2017</p>
+				</div>
+				<div class="col-xs-12 col-sm-3 col-md-3">
+					<div class="social">
+						<a href="" target="_blank"><img src="img/social-tw.png"></a>
+						<a href="" target="_blank"><img src="img/social-fb.png"></a>
+						<a href="" target="_blank"><img src="img/social-in.png"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Modals -->
+	<div id="modals"></div>
+	<!-- //Modals -->
+
+
+
+
+
+
+
+	<!-- ********************************- -->
+	</div> <!-- end wrapper-x -->
+	<!-- Scripts -->
+	<script type="text/javascript" src="js/venders/jquery-1.12.4.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>	
+	<script type="text/javascript" src="bootstrap/js/bootstrap-multiselect.js"></script>
+	<script type="text/javascript" src="js/venders/jquery.maskedinput.js"></script>
+	<script type="text/javascript" src="js/venders/jquery.sticky.js"></script>
+	<script type="text/javascript" src="owlcarousel/owl.carousel.min.js"></script>	
+	<script type="text/javascript" src="js/venders/jquery-ui.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
+
+	
+
+	<!-- JS -->
+	<script src="js/script.js"></script> 
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+.sales-block {
+	display: block;
+	width: 100%;
+	min-height: 290px;
+	height: auto;	
+	overflow: hidden;
+	margin: 0 auto 30px;
+	padding: 0;
+	border-radius: 6px;
+	box-shadow: 0px 2px 25px 2px rgba(14, 14, 14, 0.08);
+	overflow: hidden;
+	transition: height 0.2s ease;
+
+	* {color: #62646c;line-height: 1.5;}
+
+	@media @tablet-widths {
+		width: 100%;
+		* {font-size: 14px;}		
+	}
+
+	@media @mobil-widths {
+		width: 100%;
+		max-width: 450px;		
+	}
+
+	&__img {
+		display: block;
+		width: 100%;
+		height: 310px;
+		margin-left: -15px;
+
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+
+		@media @tablet-widths {height: 360px;}
+
+		@media @mobil-widths {
+			width: 110%;
+			margin-right: -15px; 
+			height: 220px;
+		}
+	}
+
+	&__text {
+		position: relative;
+		padding: 0px 50px 20px 0;
+		* {padding: 0 0 10px 0;}
+		@media @mobil-widths {
+			padding: 0px 40px;
+		}
+	}
+
+	&__title {
+		font-size: 18px;
+		color: #62646c;
+		text-transform: none;
+		text-align: left;
+		padding: 35px 20px 20px 0;
+
+		@media @mobil-widths {
+			font-size: 16px;
+			padding: 20px 10px 10px 0;
+		}
+	}	
+
+	&__buttons {
+		text-align: right;
+		padding-top: 20px;
+		
+		.button {
+			font-size: 16px;
+			margin-left: 30px;
+			padding: 10px 30px;
+		}		
+
+		@media @mobil-widths {
+			text-align: center;
+			margin-bottom: 20px;
+			.button {
+				font-size: 14px;
+				margin-left: 0;
+				padding: 7px 30px;				
+			}
+		}
+	}
+
+	&__hidden {
+		display: none;
+		padding: 50px;
+		* {padding: 0 0 10px 0;}
+
+		@media @mobil-widths {
+			padding: 0px 40px 20px;
+		}
+	}
+}

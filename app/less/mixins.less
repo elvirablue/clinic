@@ -1,0 +1,116 @@
+@import "variables.less";
+@import "scaffolding.less";
+//@import "simple.less";
+
+
+@import "blocks/main-header.less";
+@import "blocks/navbar-clinic.less";
+@import "blocks/first-screen.less";
+
+//@import "blocks/ch-wrapper.less";
+@import "blocks/button.less";
+@import "blocks/slider.less";
+@import "blocks/service.less";
+@import "blocks/advantage.less";
+@import "blocks/employe.less";
+@import "blocks/doctor.less";
+@import "blocks/cases.less";
+@import "blocks/sales.less";
+@import "blocks/license.less";
+@import "blocks/photos.less";
+@import "blocks/map.less";
+@import "blocks/main-footer.less";
+@import "blocks/page-block.less";
+@import "blocks/service-block.less";
+@import "blocks/advert.less";
+@import "blocks/vacancy.less";
+@import "blocks/news.less";
+@import "blocks/issues-block.less";
+@import "blocks/form1.less";
+@import "blocks/sales-block.less";
+@import "blocks/reviews.less";
+
+
+.hidden {
+	display: none;
+}
+ 
+
+.wrapper-x {
+	overflow: hidden !important;
+	min-height: 100%;
+	box-sizing: border-box;
+	position: relative;
+}
+.wrapper-y {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 0 0 @height-footer 0;
+	min-height: 100vh;
+	@media @mobil-widths {
+		padding-bottom: @height-footer-mobil;
+	}
+}
+
+.clerfix() {
+	&::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
+
+
+.cont-fluid() {
+	width: 100%;
+	max-width: 1200px;
+	padding: 0 30px;
+	margin: 0 auto;
+
+	@media @tablet-widths {
+		width: 100%;
+		padding: 0 20px;
+	}
+
+	@media @mobil-widths {
+		width: auto;
+		text-align: center;
+		min-width: 320px;
+		padding: 0 20px 30px;
+	}
+
+}
+
+@media @tablet-widths {
+		
+}
+
+@media @mobil-widths {
+
+}
+
+.text(@size) {  
+  
+	font-family: 'Open Sans', Arial, sans-serif;
+  	font-size: @size;   
+}
+
+
+
+
+
+
+.sepia() { 
+    filter: sepia(100%);
+   }
+.engrave() { 
+    filter: grayscale(100%);
+}
+
+.shadow() {
+	filter: drop-shadow(0px 0px 10px rgba(133, 37, 76, 0.25));
+}
+
+ 

@@ -1,0 +1,46 @@
+.issues-block {
+	display: block;
+	width: 80%;
+	margin: 0 auto 30px;
+	padding: 20px 0;
+	border-radius: 6px;
+	box-shadow: 0px 2px 25px 2px rgba(14, 14, 14, 0.08);
+
+	@media @tablet-widths {width: 100%;}
+
+	&__subtitle {
+		font-size: 18px;
+		font-weight: 700;
+		color: @color-navy;
+		letter-spacing: 1px;
+		padding: 0 25px 10px;
+
+		@media @mobil-widths {
+			font-size: 16px;
+			padding: 0 15px 10px;
+		}
+	}
+
+	&__text {
+		font-size: 16px;
+		font-weight: normal;
+		color: #62646c;		
+		padding: 0 35px;
+
+		@media @mobil-widths {
+			font-size: 14px;
+			padding: 0 25px;
+		}
+	}
+
+	&__hr {
+		display: block;
+		width: 100%;
+		height: 3px;
+		margin: 20px 0;
+		border: none;
+		background-image: linear-gradient(to top, rgb(27,246,204) 0%, rgb(4,180,198) 100%);
+	}
+
+}
+

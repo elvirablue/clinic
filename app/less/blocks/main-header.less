@@ -1,0 +1,113 @@
+.main-header {	
+    padding: 0;
+    background-color: #fff;
+    min-height: 140px;
+    @media @mobil-widths {
+    	 min-height: 105px;
+    }
+
+    .navbar.navbar-default {
+    	background-color: #fff;
+    	background-image: none;
+    }
+
+    .navbar-header {
+		width: 100%;
+		float: none;
+
+		@media @mobil-widths {
+			margin: 0;
+		}
+
+    }
+
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    	.clerfix();
+    	width: 100%;
+    	height: auto;
+    	margin: 0;
+    	padding: 20px 0;
+
+    	@media @mobil-widths {
+			padding: 10px;
+			width: 80%;
+		}
+    }
+
+ 	.index_logo {
+    	display: block;
+    	width: auto;
+		float: left;
+		margin-top: 5px;
+	}
+ 	.index_logo img {
+ 		width: 100%;
+ 		height: auto;
+ 	}
+	.index_address {
+		display: block;
+		width: auto;
+		float: left;
+    	color: #828282;
+    	font-size: 18px;
+    	font-weight: 300;
+    	line-height: 1.2;
+    	margin: 0;
+    	margin-left: 9%;
+
+    	@media @tablet-widths {
+    		display: none;
+    	}
+	}
+	.index_phone {
+		display: block;
+		width: auto;
+		float: right;
+    	margin: 0;    	
+    	margin-top: 10px;
+
+    	@media @tablet-widths {
+    		margin-top: 0px;
+    	}
+
+    	@media @mobil-widths {
+    		width: 100%;
+    		text-align: left;
+    	}
+
+    	a.phone {
+    		display: inline-block;
+    		vertical-align: middle;
+    		font-size: 20px;
+    		color: #000;
+    		font-weight: bold;    		
+    		margin-right: 15px;
+    	}
+	}
+	.button {
+		display: inline-block;
+    	vertical-align: middle;
+    	font-size: 13px;
+    	line-height: 28px;
+    	font-weight: lighter;
+    	min-width: 0;
+    	padding: 0 20px;
+   		
+
+   		@media @mobil-widths {
+   			display: none;
+   		}
+	}
+
+	.navbar-collapse {
+		.clerfix();
+	}
+
+	
+
+	.navbar-nav {
+		float: left;
+	}
+
+	
+}

@@ -1,0 +1,61 @@
+.doctor {
+	display: block;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	padding-bottom: 30px;
+
+	@media @mobil-widths {padding-bottom: 50px;}
+
+	&__count {
+		position: absolute;
+		z-index: 100;
+		top: 0;
+		right: 0;
+		font-size: 30px;
+		line-height: 30px;
+		color: #14d8bd;
+		font-weight: 800;
+		text-align: left;
+
+		span {
+			display: block;
+			font-size: 16px;
+			font-weight: 600;
+			color: #000;
+			line-height: 1;
+		}
+	}
+
+	&__info {
+    	border-top: 2px solid #04b4c6;
+    	padding: 20px 10px 0;
+    	transition: border-color 0.2s ease;
+	}
+
+	&:hover &__info {
+    	border-top-color: #1bf6cc;
+	}
+
+	&__name {
+    	font-size: 16px;
+    	margin: 0 0 20px;
+
+    	strong {display: block;}
+	}
+
+	&__desc {
+		font-size: 14px;
+	}
+
+	img.rating {
+		margin-bottom: 20px;
+	}
+
+	&__img {
+		width: auto;		
+		height: auto;
+		max-height: 345px;
+
+	}
+}
