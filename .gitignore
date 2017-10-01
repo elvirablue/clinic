@@ -1,5 +1,6 @@
 node_modules/
 maket/
+html/
 package.json
 
 gulpfile.js
