@@ -135,6 +135,33 @@ $(document).on('ready', function(){
 
     owl5.owlCarousel({
         loop:true,//Зацикливаем слайдер
+        margin:20,
+        dots:true,
+        nav: true,
+        autoplayHoverPause: true, //Останавливает автопроигрывание если навести мышкой (hover) на элемент
+        autoplay:false, //Автозапуск слайдера
+        smartSpeed:2500, //Время движения слайда
+        autoplayTimeout:100, //Время смены слайда
+        responsiveClass:true,        
+        responsive:{
+             0:{
+                 items:1,
+                 nav:false
+             },
+             500:{
+                 items:1
+             },
+             1230:{
+                 items:1                
+             }
+        }
+    });
+
+
+    var owl6 = $('#owl-price');
+
+    owl6.owlCarousel({
+        loop:true,//Зацикливаем слайдер
         margin:0,
         dots:true,
         nav: true,
